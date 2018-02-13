@@ -1,0 +1,13 @@
+newrelic:
+  license_key: '<%= node['newrelic']['license_key'] %>'
+  verbose: 1
+
+agents:
+  mongodb:
+    -
+      agent_name: "<%= node['newrelic']['app_name'] %>"
+      endpoint: "<%= node['newrelic']['endpoint'] %>"
+      database: "<%= node['newrelic']['database'] %>"
+      ssl: false
+      username: "<%= node['newrelic']['mongo_user'] %>"
+      password: "<%= node['newrelic']['mongo_pw'] %>"
