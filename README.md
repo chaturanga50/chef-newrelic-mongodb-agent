@@ -37,7 +37,7 @@ References
 License and Author
 ==================
 
-Author: Chathuranga Abeyrathna (<chaturanga.abeyrathna@pearson.com>)
+Author: Chathuranga Abeyrathna (<chaturanga50@gmail.com>)
 
 Copyright 2018.
 
